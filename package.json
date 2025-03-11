@@ -1,0 +1,27 @@
+{
+  "name": "ram",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/hariram692/Node-js-sample#readme",
+  "bugs": {
+    "url": "https://github.com/hariram692/Node-js-sample/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hariram692/Node-js-sample.git"
+  },
+  "license": "ISC",
+  "author": "hariram",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "init": "^0.1.2",
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.9"
+  }
+}
